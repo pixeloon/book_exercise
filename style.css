@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit
+}
+
+body {
+    background-color: #ACD0B5;
+    color: #343434;
+}
+
+h1 {
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    border: 1px solid #454545;
+    padding: 10px;
+    vertical-align: top;
+}
+
+th {
+    background-color: #FCF2E5;
+    color: #800000;
+}
+
+label {
+    cursor: pointer;
+    margin: 0 12px;
+}
+
+input[type="button"] {
+    font-size: 20px;
+}
+
+input[type="text"] {
+    text-align: right;
+}
+
+.books {
+    margin: 0 auto;
+    width: 470px;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.row0 {
+    background-color: #FCF2E5;
+}
+
+.row1 {
+    background-color: #D9EAE0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline;
+}
